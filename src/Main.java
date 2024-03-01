@@ -3,7 +3,7 @@ public class Main {
 
         int remains = 100; // Остаток на счёте
         int refill = 1000; // Пополнение
-        int z = 0; // Бонусы на счёте
+        int fee = 0; // Бонусы на счёте
 
         int bonus;
         int outcome;
@@ -18,7 +18,7 @@ public class Main {
             outcome = remains + refill + bonus; // Общая сумма
 
             System.out.println("Итоговая сумма на счету: " + outcome);
-            System.out.printf("Из них бонусов: " + z);
+            System.out.printf("Из них бонусов: " + fee);
         }
     }
 }
